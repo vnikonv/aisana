@@ -32,8 +32,8 @@
           <p><a href="tel:+77054517275" class="text-cyan-700 hover:underline">+7 (705) 451-72-75</a></p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-          <p class="font-semibold mb-2">Никита Р.</p>
-          <p><a href="tel:+77073650587" class="text-cyan-700 hover:underline">+7 (707) 365-05-87</a></p>
+          <p class="font-semibold mb-2">Дима</p>
+          <p><a href="tel:+77073650587" class="text-cyan-700 hover:underline">+7 (777) 203-28-58</a></p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
           <p class="font-semibold mb-2">Артем</p>
@@ -44,7 +44,7 @@
           <p><a href="tel:+77784220650" class="text-cyan-700 hover:underline">+7 (778) 422-06-50</a></p>
         </div>
         <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-          <p class="font-semibold mb-2">Никита Н.</p>
+          <p class="font-semibold mb-2">Никита</p>
           <p><a href="tel:+77052336850" class="text-cyan-700 hover:underline">+7 (705) 233-68-50</a></p>
         </div>
       </div>
