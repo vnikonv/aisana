@@ -1,0 +1,17 @@
+{
+  "HeroSection": {
+    "title": "AI Sana Kozybayev University",
+    "headline": "Intelligent AI agents for university and city",
+    "description": "New automation possibilities — from diagnosing patients to optimizing city transport and handling documents.",
+    "button": "Learn more"
+  },
+  
+  "nav": {
+    "home": "Home",
+    "agents": "AI Agents",
+    "about": "About",
+    "contacts": "Contacts"
+  }
+  
+
+}
