@@ -67,10 +67,10 @@
     
     <div v-if="isOpen" class="md:hidden bg-white shadow-inner">
       <nav class="flex flex-col space-y-4 p-6 text-cyan-700 font-semibold">
-        <a href="#about" @click="close" class="hover:text-cyan-900 transition">Главная</a>
-        <a href="#agents" @click="close" class="hover:text-cyan-900 transition">AI Агенты</a>
-        <a href="#ai-sana" @click="close" class="hover:text-cyan-900 transition">О программе</a>
-        <a href="#contacts" @click="close" class="hover:text-cyan-900 transition">Контакты</a>
+        <a href="#about" @click="close" class="hover:text-cyan-900 transition">{{ $t('nav.home') }}</a>
+        <a href="#agents" @click="close" class="hover:text-cyan-900 transition">{{ $t('nav.agents') }}</a>
+        <a href="#ai-sana" @click="close" class="hover:text-cyan-900 transition">{{ $t('nav.about') }}</a>
+        <a href="#contacts" @click="close" class="hover:text-cyan-900 transition">{{ $t('nav.contacts') }}</a>
       </nav>
     </div>
   </header>
