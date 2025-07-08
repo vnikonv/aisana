@@ -1,7 +1,7 @@
 <template>
   <section id="agents" class="py-16">
     <div class="container mx-auto px-4">
-      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-700" data-aos="fade-up">Наши ИИ агенты</h2>
+      <h2 class="text-4xl font-bold text-center mb-12 text-cyan-700" data-aos="fade-up">{{ $t('Agents.title') }}</h2>
       <div class="flex flex-wrap justify-center gap-8 max-w-6xl mx-auto">
         <div v-for="agent in agents" :key="agent.title"
           class="bg-white rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 transition duration-300 w-80"
@@ -15,7 +15,7 @@
           <div v-if="agent.link" class="mt-4 text-center">
             <a :href="agent.link" target="_blank"
               class="inline-block bg-cyan-700 hover:bg-cyan-800 text-white font-semibold py-2 px-6 rounded-lg transition">
-              Перейти к проекту
+              {{ $t('Agents.nav') }}
             </a>
           </div>
         </div>

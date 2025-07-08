@@ -11,7 +11,28 @@
     "agents": "AI Agents",
     "about": "About",
     "contacts": "Contacts"
-  }
-  
+  },
 
+  "FooterSection": {
+    "copyright": "© 2025 AISana, Kozybayev University. Development of intelligent solutions for education and the city."
+  },
+
+  "Contacts": {
+    "contacts": "Contacts",
+    "coop": "If you have any questions about cooperation and participation in AISana, please contact:",
+    "dev_contacts": "Developer Contacts"
+  },
+
+  "Agents": {
+    "title": "Our AI agents",
+    "nav": "Go to the project"
+  },
+
+  "About": {
+    "about": "About the AI SANA program",
+    "sentence1": "The AI SANA program is an initiative of the Ministry of Science and Higher Education to introduce advanced artificial intelligence technologies into education.",
+    "sentence2": "It covers 100,000 students, stimulates the creation of Deep Tech startups, the development of IT competencies and technological entrepreneurship.",
+    "sentence3": "It takes place in 3 stages: mass training (650 thousand students), studying ML and AI business, acceleration of 1.5 thousand startups with the support of Stanford, Imperial and King's College experts.",
+    "mrpresident": "The Minister and the President of the Republic of Kazakhstan at the presentation of the AI SANA program"
+  }
 }
