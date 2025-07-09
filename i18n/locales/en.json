@@ -20,12 +20,36 @@
   "Contacts": {
     "contacts": "Contacts",
     "coop": "If you have any questions about cooperation and participation in AISana, please contact:",
-    "dev_contacts": "Developer Contacts"
+    "dev_contacts": "Developer Contacts",
+    "name1": "Timur",
+    "name2": "Nikon",
+    "name4": "Rustem",
+    "name5": "Sergey",
+    "name6": "Dima",
+    "name7": "Artyom",
+    "name8": "Danila",
+    "name9": "Nikita"
   },
 
   "Agents": {
     "title": "Our AI agents",
-    "nav": "Go to the project"
+    "nav": "Go to the project",
+    "header2": "UniExpert",
+    "header4": "AI for transport",
+    "header5": "Anti-corruption bo",
+    "status1": "Under testing",
+    "status2345": "Under development",
+    "desc1": "Behavioral scoring for antifraud.",
+    "desc2": "AI for searching for regulatory documents",
+    "desc3": "AI doctor for diagnosis and recommendations",
+    "desc4": "Optimization of urban routes",
+    "desc5": "Chatbot on corruption issues",
+    "points1": ["Accuracy ~99%", "SHAP, Gini, KS", "Manual check ~70%", "Processing <30 sec"],
+    "points2": ["RAG architecture", "70% time savings", "Integration with Telegram", "80% Employee coverage"],
+    "points3": ["Symptom analysis in 5 minutes", "1000+ patients per day", "Costs ↓ 2 times", "Accuracy up to 90%"],
+    "points4": ["GPS and camera analysis", "Fuel ↓ by 10%", "Passenger traffic ↑ by 15%", "Real-time route"],
+    "points5": ["Notifications and Scenarios", "Feedback -50%", "Engagement x3", "Risk Reduction"]
+
   },
 
   "About": {

@@ -35,7 +35,7 @@ const agents = [
     link: "https://antifraudml.streamlit.app/"
   },
   {
-    title: "УниЭксперт",
+    title: "УниЭксперт", // {{ $t('Agents.header2') }}
     status: "🟡 В разработке",
     statusClass: "text-yellow-500",
     desc: "AI для поиска нормативных документов.",
