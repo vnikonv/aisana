@@ -10,8 +10,9 @@
           <p :class="agent.statusClass + ' font-semibold mb-2'">{{ agent.status }}</p>
           <p class="text-gray-600 mb-3 text-sm">{{ agent.desc }}</p>
           <ul class="text-xs text-gray-500 list-disc list-inside space-y-1">
-            <li v-for="point in agent.points" :key="point">{{ point }}</li>
+            <li v-for="pointKey in agent.points" :key="pointKey">{{ $t(pointKey) }}</li>
           </ul>
+          
           <div v-if="agent.link" class="mt-4 text-center">
             <a :href="agent.link" target="_blank"
               class="inline-block bg-cyan-700 hover:bg-cyan-800 text-white font-semibold py-2 px-6 rounded-lg transition">
@@ -25,44 +26,49 @@
 </template>
 
 <script setup>
-const agents = [
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
+
+const { locale, messages, t } = useI18n()
+
+const agents = computed(() => [
   {
-    title: "AI AntiFraud",
-    status: "🟢 На тестировании",
+    title: 'AI AntiFraud',
+    status: t('Agents.status1'),
     statusClass: "text-green-500",
-    desc: "Поведенческий скоринг для antifraud.",
-    points: ["Точность ~99%", "SHAP, Gini, KS", "Ручная проверка ↓70%", "Обработка <30 сек"],
+    desc: t('Agents.desc1'),
+    points: ['Agents.points1.0', 'Agents.points1.1', 'Agents.points1.2', 'Agents.points1.3'],
     link: "https://antifraudml.streamlit.app/"
   },
   {
-    title: "УниЭксперт", // {{ $t('Agents.header2') }}
-    status: "🟡 В разработке",
+    title: t('Agents.header2'),
+    status: t('Agents.status2345'),
     statusClass: "text-yellow-500",
-    desc: "AI для поиска нормативных документов.",
-    points: ["RAG-архитектура", "Экономия времени на 70%", "Интеграция с Telegram", "Охват 80% сотрудников"]
+    desc: t('Agents.desc2'),
+    points: ['Agents.points2.0', 'Agents.points2.1', 'Agents.points2.2', 'Agents.points2.3']
   },
   {
     title: "CheckDoc",
-    status: "🟡 В разработке",
+    status: t('Agents.status2345'),
     statusClass: "text-yellow-500",
-    desc: "AI-доктор для диагностики и рекомендаций.",
-    points: ["Анализ симптомов за 5 мин", "1000+ пациентов в день", "Затраты ↓ в 2 раза", "Точность до 90%"]
+    desc: t('Agents.desc3'),
+    points: ['Agents.points3.0', 'Agents.points3.1', 'Agents.points3.2', 'Agents.points3.3']
   },
   {
-    title: "AI для транспорта",
-    status: "🟡 В разработке",
+    title: t('Agents.header4'),
+    status: t('Agents.status2345'),
     statusClass: "text-yellow-500",
-    desc: "Оптимизация городских маршрутов.",
-    points: ["Анализ GPS и камер", "Топливо ↓ на 10%", "Пассажиропоток ↑ на 15%", "Маршруты в реальном времени"]
+    desc: t('Agents.desc4'),
+    points: ['Agents.points4.0', 'Agents.points4.1', 'Agents.points4.2', 'Agents.points4.3']
   },
   {
-    title: "Антикоррупционный бот",
-    status: "🟡 В разработке",
+    title: t('Agents.header5'),
+    status: t('Agents.status2345'),
     statusClass: "text-yellow-500",
-    desc: "Чат-бот по вопросам коррупции.",
-    points: ["Уведомления и сценарии", "Обратная связь -50%", "Вовлеченность x3", "Снижение рисков"]
+    desc: t('Agents.desc5'),
+    points: ['Agents.points5.0', 'Agents.points5.1', 'Agents.points5.2', 'Agents.points5.3']
   }
-]
+])
 </script>
 
 <style scoped>
