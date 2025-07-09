@@ -27,7 +27,8 @@ export default defineNuxtConfig({
         { src: "https://unpkg.com/aos@2.3.4/dist/aos.js", body: true },
       ],
       link: [
-        { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.4/dist/aos.css" }
+        { rel: "stylesheet", href: "https://unpkg.com/aos@2.3.4/dist/aos.css" },
+        { rel: "icon", type: "image/png", href: "/favicon.png" } 
       ]
     }
   }
