@@ -7,6 +7,7 @@
         <a href="#"><img src="/facebook.svg" alt="Facebook" class="w-6 h-6 hover:scale-110 transition"></a>
         <a href="#"><img src="/instagram.svg" alt="Instagram" class="w-6 h-6 hover:scale-110 transition"></a>
         <a href="#"><img src="/youtube.svg" alt="YouTube" class="w-6 h-6 hover:scale-110 transition"></a>
+        <a href="https://github.com/vnikonv/aisana"><img src="/github-mark.svg" alt="GitHub" class="w-6 h-6 hover:scale-110 transition"></a>
       </div>
       <p class="mt-2 text-gray-700">
         <a href="mailto:mail@ku.edu.kz" class="text-cyan-700 hover:underline text-lg">mail@ku.edu.kz</a>

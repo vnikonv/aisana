@@ -11,7 +11,7 @@
           {{ $t('About.sentence2') }}
         </p>
         <p class="mb-6 text-gray-200">
-          {{ $t('About.sentence2') }}
+          {{ $t('About.sentence3') }}
         </p>
       </div>
       <div class="md:w-1/2" data-aos="fade-left">
