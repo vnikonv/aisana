@@ -3,7 +3,7 @@
     <img src="/ai-sana-bg.jpeg" alt="AI Sana background" class="absolute inset-0 w-full h-full object-cover opacity-20" />
     <div class="flex transition-transform duration-700 ease-in-out"
       :style="{ transform: `translateX(-${activeIndex * 100}%)` }">
-      <div class="relative z-10 container mx-auto px-4 flex flex-col md:flex-row items-center gap-12 min-w-fit max-w-fit mr-8 ml-8">
+      <div class="relative z-10 container mx-auto px-4 flex flex-col md:flex-row items-center gap-12 min-w-fit max-w-fit mr-8 ml-8 justify-items-center">
         <div class="md:w-1/2 bg-white/10 backdrop-blur-md rounded-2xl p-8 shadow-xl" data-aos="fade-right">
           <h2 class="text-3xl md:text-4xl font-bold mb-6">{{ $t('About.about') }}</h2>
           <p class="mb-4 text-gray-200">
@@ -15,6 +15,8 @@
           <p class="mb-6 text-gray-200">
             {{ $t('About.sentence3') }}
           </p>
+          <p class="mb-6 text-gray-200">{{ $t('About.sentence4') }}</p>
+          <p class="mb-4 text-gray-200">{{ $t('About.sentence5') }}</p>
         </div>
         <div class="md:w-1/2" data-aos="fade-left">
           <img src="/minister-presentation.jpeg" alt="Министр презентует AI Sana" class="rounded-2xl shadow-2xl mb-4" />
